@@ -28,5 +28,29 @@ New vim thing I picked up today is :sp newfile.ext opens a second file in the wi
 Part of this is technical and part is the imagination things. Next I'll try to add a menu and a few pages. Like to see how to put a theme toggle for dark or light. 
 
 </p>
+<style>
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<button onclick="myFunction()">Toggle dark/light mode</button>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
 </body>
 </html>
